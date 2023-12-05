@@ -35,7 +35,7 @@ Fly High is a user-friendly web application designed to simplify the flight book
    ```bash
    git clone https://github.com/your-username/fly-high.git
 
-2. Install dependencies:
+2. Navigate to the project directory:
 
    ```bash
    cd fly-high
