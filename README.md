@@ -35,17 +35,17 @@ Fly High is a user-friendly web application designed to simplify the flight book
    ```bash
    git clone https://github.com/your-username/fly-high.git
 
-2. Clone the repository:
+2. Install dependencies:
 
    ```bash
    cd fly-high
 
-3. Clone the repository:
+3. Install dependencies:
 
    ```bash
    npm install
 
-4. Clone the repository:
+4. Run the application:
 
    ```bash
    npm start
