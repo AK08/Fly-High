@@ -1,6 +1,6 @@
 # Fly High
 
-Welcome to Fly High, your go-to platform for seamless flight bookings and travel planning.
+Welcome to Fly High, a flight booking web application that aims to make your travel experience seamless and enjoyable. Whether you're planning a holiday or a business trip, Fly High provides a user-friendly interface to help you book your flights with ease.
 
 ## Table of Contents
 
