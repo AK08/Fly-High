@@ -1,25 +1,38 @@
-# Fly-High
+# Fly High
 
-Welcome to Fly High, a flight booking web application that aims to make your travel experience seamless and enjoyable. Whether you're planning a holiday or a business trip, Fly High provides a user-friendly interface to help you book your flights with ease.
+Welcome to Fly High, your go-to platform for seamless flight bookings and travel planning.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [How to Use](#how-to-use)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+Fly High is a user-friendly web application designed to simplify the flight booking process. Whether you're planning a vacation or a business trip, Fly High provides an intuitive interface to help you find, select, and book flights effortlessly.
 
 ## Features
 
-User-friendly Interface: Our intuitive interface allows users to quickly search, select, and book flights hassle-free.
-Personalized Experience: Customize your travel details, including departure and destination locations, to tailor your journey according to your preferences.
-Flight Schedule: Access real-time flight schedules to plan your trip efficiently and stay informed about any changes.
-Account Settings: Create an account to manage your bookings, save preferences, and streamline your future travel plans.
-Holiday Packages: Explore curated holiday packages and discover exciting destinations for your next adventure.
+- **User-friendly Interface:** Navigate easily through the application with a clean and intuitive design.
+- **Customized Travel Experience:** Personalize your travel details to tailor your journey according to your preferences.
+- **Real-time Flight Schedules:** Stay informed about flight schedules and any updates to plan your trip efficiently.
+- **Account Management:** Create an account to manage bookings, save preferences, and streamline future travel plans.
+- **Explore Holiday Packages:** Discover curated holiday packages for exciting travel destinations.
 
 ## Technologies Used
 
-React: Built with the power of React to provide a responsive and dynamic user interface.
-CSS: Styled using CSS for a visually appealing and consistent design.
-State Management: Utilizes React Hooks for efficient state management, ensuring a seamless user experience.
-GitHub: Hosted on GitHub for version control and collaborative development.
+- **React:** Powering the dynamic and responsive user interface.
+- **CSS:** Styling the application for a visually appealing experience.
+- **React Hooks:** Efficient state management for a seamless user experience.
+- **GitHub:** Hosted on GitHub for version control and collaborative development.
 
 ## How to Use
 
-Clone the repository: git clone https://github.com/your-username/fly-high.git
-Navigate to the project directory: cd fly-high
-Install dependencies: npm install
-Run the application: npm start
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/fly-high.git
