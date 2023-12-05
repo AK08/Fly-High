@@ -42,15 +42,12 @@ Fly High is a user-friendly web application designed to simplify the flight book
    ```bash
    cd fly-high
 
-
 3. Clone the repository:
 
    ```bash
    npm install
 
-
 4. Clone the repository:
 
    ```bash
    npm start
-
