@@ -8,8 +8,6 @@ Welcome to Fly High, your go-to platform for seamless flight bookings and travel
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
