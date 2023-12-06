@@ -1,14 +1,18 @@
-# Fly High
-
-Welcome to Fly High, a flight booking web application that aims to make your travel experience seamless and enjoyable.
-
 <p align="center">  
-<a href="https://fly-high-ak9.vercel.app/">View Deployment</a>
 <a href="https://github.com/AK08/Fly-High.git">
    <img src="images/webpage.png" >
 </a>
 </p>
 
+# Fly High
+
+Welcome to Fly High, a flight booking web application that aims to make your travel experience seamless and enjoyable.
+
+<p align="center"> 
+<a href="https://drive.google.com/file/d/1ZrcStByRFXHuL7sME-PB8pjkRRPL-oeg/view?usp=sharing">View Video</a>
+.
+<a href="https://fly-high-ak9.vercel.app/">View Deployment</a>
+</p>
 
 ## Table of Contents
 
@@ -16,6 +20,8 @@ Welcome to Fly High, a flight booking web application that aims to make your tra
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [How to Use](#how-to-use)
+- [Additional Features and Improvements](#additional-features-and-improvements-pending)
+- [How to use Calendar](#how-to-use-calender)
 
 ## Introduction
 
@@ -64,7 +70,6 @@ Fly High is a user-friendly web application designed to simplify the flight book
 While the current version of Fly High provides a robust experience, there are some additional features and improvements that could enhance the user experience further:
 
 1. **Responsive:** Make the website responsive.
-1. **Time Selection:** Allow users to specify the departure and return times in addition to dates.
 
 2. **Real-time Clock:** Display the current time in the calendar for better context and user awareness.
 
@@ -77,4 +82,9 @@ While the current version of Fly High provides a robust experience, there are so
 5. **Keyboard Accessibility:** Ensure full accessibility by enabling keyboard navigation for the calendar, making it convenient for users who rely on keyboard controls.
 
 These enhancements aim to make Fly High even more user-friendly, providing a seamless and inclusive travel planning experience.
+
+
+## How to use Calender
+
+* Select the time first and then the date for both From and To elements
 
