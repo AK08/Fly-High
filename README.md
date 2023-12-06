@@ -60,6 +60,7 @@ Fly High is a user-friendly web application designed to simplify the flight book
 
 While the current version of Fly High provides a robust experience, there are some additional features and improvements that could enhance the user experience further:
 
+1. **Responsive:** Make the website responsive.
 1. **Time Selection:** Allow users to specify the departure and return times in addition to dates.
 
 2. **Real-time Clock:** Display the current time in the calendar for better context and user awareness.
