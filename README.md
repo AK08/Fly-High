@@ -54,3 +54,23 @@ Fly High is a user-friendly web application designed to simplify the flight book
 
    ```bash
    npm start
+
+
+## Additional Features and Improvements (Pending)
+
+While the current version of Fly High provides a robust flight booking experience, there are some additional features and improvements that could enhance the user experience further:
+
+1. **Time Selection:** Allow users to specify the departure and return times in addition to dates.
+
+2. **Real-time Clock:** Display the current time in the calendar for better context and user awareness.
+
+3. **Highlight Date Range:** Improve the calendar's visual feedback by highlighting the selected date range:
+    - If only the departure date is selected, highlight the corresponding date.
+    - If both departure and return dates are selected, highlight all the dates in between.
+
+4. **Interactive Date Selection:** Enhance the date selection process by highlighting the range as the user hovers over dates to choose the return date.
+
+5. **Keyboard Accessibility:** Ensure full accessibility by enabling keyboard navigation for the calendar, making it convenient for users who rely on keyboard controls.
+
+These enhancements aim to make Fly High even more user-friendly, providing a seamless and inclusive travel planning experience.
+
