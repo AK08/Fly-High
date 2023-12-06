@@ -20,6 +20,7 @@ Welcome to Fly High, a flight booking web application that aims to make your tra
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [How to Use](#how-to-use)
+- [Additional Features and Improvements](#Additional-Features-and-Improvements-(Pending))
 
 ## Introduction
 
