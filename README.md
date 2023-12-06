@@ -21,7 +21,7 @@ Welcome to Fly High, a flight booking web application that aims to make your tra
 - [Technologies Used](#technologies-used)
 - [How to Use](#how-to-use)
 - [Additional Features and Improvements](#additional-features-and-improvements-pending)
-- [How to use Calendar](#how-to-use-calendar)
+- [How to use Calendar](#how-to-use-calender)
 
 ## Introduction
 
