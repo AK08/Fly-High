@@ -2,6 +2,10 @@
 
 Welcome to Fly High, a flight booking web application that aims to make your travel experience seamless and enjoyable.
 
+<p align="center"> 
+<a href="https://fly-high-ak9.vercel.app/">View Deployment</a>
+</p>
+
 <p align="center">  
 <a href="https://fly-high-ak9.vercel.app/">View Deployment</a>
 <a href="https://github.com/AK08/Fly-High.git">
