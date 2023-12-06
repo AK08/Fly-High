@@ -5,8 +5,8 @@ Welcome to Fly High, a flight booking web application that aims to make your tra
 <p align="center">
     Welcome to our project!
     
-    ·
-    <a href="https://diagnosify.streamlit.app/">View Deployment</a>
+    
+<a href="https://diagnosify.streamlit.app/">View Deployment</a>
 </p>
 
 
