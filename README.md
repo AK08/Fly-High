@@ -20,7 +20,8 @@ Welcome to Fly High, a flight booking web application that aims to make your tra
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [How to Use](#how-to-use)
-- [Additional Features and Improvements](#Additional-Features-and-Improvements-(Pending))
+- [Additional Features and Improvements](#additional-features-and-improvements-pending)
+- [How to use Calendar](#how-to-use-calendar)
 
 ## Introduction
 
@@ -81,4 +82,9 @@ While the current version of Fly High provides a robust experience, there are so
 5. **Keyboard Accessibility:** Ensure full accessibility by enabling keyboard navigation for the calendar, making it convenient for users who rely on keyboard controls.
 
 These enhancements aim to make Fly High even more user-friendly, providing a seamless and inclusive travel planning experience.
+
+
+## How to use Calender
+
+* Select the time first and then the date
 
