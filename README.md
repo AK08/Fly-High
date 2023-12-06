@@ -1,17 +1,16 @@
-# Fly High
-
-<p align="center"> 
-<a href="https://fly-high-ak9.vercel.app/">View Deployment</a>
-</p>
-
-Welcome to Fly High, a flight booking web application that aims to make your travel experience seamless and enjoyable.
-
 <p align="center">  
 <a href="https://github.com/AK08/Fly-High.git">
    <img src="images/webpage.png" >
 </a>
 </p>
 
+# Fly High
+
+Welcome to Fly High, a flight booking web application that aims to make your travel experience seamless and enjoyable.
+
+<p align="center"> 
+<a href="https://fly-high-ak9.vercel.app/">View Deployment</a>
+</p>
 
 ## Table of Contents
 
