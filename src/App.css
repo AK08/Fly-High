@@ -1,0 +1,345 @@
+/* Add your custom styles to enhance the appearance of the date picker */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;800&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* background-color: #fafafa; */
+  background-color: #f2f2f2;
+}
+
+.header {
+  height: 90vh;
+  width: 100%;
+  background-position: center;
+  background-image: url(./assets/home.jpg);
+  background-size: cover;  
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 10%;
+  
+}
+nav img{
+  width: 150px;
+}
+.logoname {
+  font-size: 25px;
+}
+.nav-links{
+  text-align: right;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 10px;
+  position:relative;
+}
+.nav-links ul li a{
+  color: black;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: red;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+  width: 100%;
+
+}
+
+.flight-box {
+  position: relative;
+  bottom: 100px;
+  height: 300px;
+  width: 78%;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row; /* Change to column layout */
+}
+
+.place {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align text content to the left */
+  align-items: flex-start; 
+  margin: 20px; /* Adjust margin to create space between boxes */
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 20px;
+  padding: 40px 0px 0px 30px; /* Adjust padding for a more compact layout */
+}
+
+.place:last-child {
+  flex: 2;
+}
+
+.place input {
+  border: none; /* Remove border from input boxes */
+  outline: none; /* Remove outline on focus */
+}
+
+.placestyle {
+  padding: 20px 0px 20px 0px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+
+.text-box{  
+  width: 90%;
+  color: black;
+  position: absolute;
+  top:40%;
+  left: 55%;
+  transform: translate(-50%,-50%);
+  text-align: left;
+  }
+  
+  
+  .text-box h1{
+      font-size: 50px;
+  }
+  .tagline {
+      font-size: 50px;
+      color: black;
+
+  }
+  
+  .place.calendar {
+      flex: 2;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    
+    .place.calendar .half {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin: 0px;
+      
+    }
+    
+    .place.calendar h1 {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+.date-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  border: 0px solid #ddd;
+  background-color: #fff;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 50px;
+  right: 20%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+}
+
+.DatePicker-fullcontainer {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.month-navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.month-navigation button {
+  margin: 5px;
+  border: 0;
+  font-size: 15px;
+  font-weight: normal;
+  background-color: transparent; /* Adjust the margin as needed */
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 1
+}
+
+
+.calenderTime-input {
+  width: 50px;
+  padding: 5px;
+  margin: 2px;
+  border: 1px solid #efefef;
+}
+
+.row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendar {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  padding: 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #fff;
+  color: #bdbcbf;
+  border: 0;
+}
+
+.calendar-cell {
+  cursor: pointer;
+  border: 1px solid #ddd; /* Border around each date */
+}
+
+.today {
+  background-color: #e6f7ff;
+}
+
+.in-range {
+  background-color: #bdffb3;
+}
+
+.selected {
+  background-color: #4da6ff;
+  color: #fff;
+}
+
+.calendar-cell.today {
+  background-color: white;
+  color: #88cca6; /* Green color */
+}
+
+.last-options-container {
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.last-options-container span {
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+.last-options-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.last-options-container li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Add more styles as needed */
+.half input {
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.half input:focus {
+  border: 1px solid #84cea6;
+}
+
+.outside-month {
+  color: #ccc; /* Grey out color */
+}
+
+.Search-button {
+  padding: 10px;
+  padding-inline: 20px;
+  width: 70%;
+  background-color: #759cd5;
+  border: 0;
+  color: white;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.right-arr {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.Search-button:hover {
+  background-color: #88cca6;
+  transition-duration: 1.5s;
+}
