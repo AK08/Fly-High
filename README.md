@@ -2,10 +2,7 @@
 
 Welcome to Fly High, a flight booking web application that aims to make your travel experience seamless and enjoyable.
 
-<p align="center">
-    Welcome to our project!
-    
-    
+<p align="center">  
 <a href="https://diagnosify.streamlit.app/">View Deployment</a>
 </p>
 
