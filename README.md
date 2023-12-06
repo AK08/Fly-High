@@ -86,5 +86,5 @@ These enhancements aim to make Fly High even more user-friendly, providing a sea
 
 ## How to use Calender
 
-* Select the time first and then the date
+* Select the time first and then the date for both From and To elements
 
